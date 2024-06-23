@@ -1,9 +1,14 @@
 .hero {
   background-color: rgba(89, 131, 252, 1);
-  background-image: linear-gradient(166deg, rgba(89, 131, 252, 1) 56.86%, rgba(255, 255, 255, 1) 57%);
-  padding: 4rem;
+  background-image: linear-gradient(
+    173deg,
+    rgba(89, 131, 252, 1) 56.86%,
+    rgba(255, 255, 255, 1) 57%
+  );
+  padding: 3rem 5rem;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .hero-figure {
@@ -12,23 +17,47 @@
 
 .hero-picture {
   height: auto;
-  width: 700px;
+  max-width: 500px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
 }
 
 .hero-picture-caption {
   position: absolute;
   bottom: 2%;
-  left: 2%;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  font-size: 2rem;
+  white-space: nowrap;
 }
 
 .hero-description {
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+
   background-color: white;
-  box-shadow: 0px 0px 7px -2px black;
-  padding: 1rem;
+  padding: 2rem;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.hero-header {
+  font-size: 2.3rem;
+}
+
+.hero-text {
+  font-size: 1.2rem;
+  line-height: 1.3em;
+  word-spacing: 1px;
 }
 
 .hero-icon-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 2rem);
+  justify-content: end;
   height: 1.7rem;
-  gap: 0.3rem;
+  gap: 0.5rem;
 }
