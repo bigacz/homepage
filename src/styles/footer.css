@@ -1,0 +1,39 @@
+.footer {
+  padding: 3rem 5rem;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-info {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.footer-info-header {
+  font-size: 2rem;
+}
+
+.footer-info-contact {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.footer-info-contact img {
+  height: 1em;
+}
+
+.footer-info-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 2rem);
+  gap: 1rem;
+}
+
+.footer-picture img {
+  height: 400px;
+  width: auto;
+}
