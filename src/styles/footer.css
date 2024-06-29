@@ -1,5 +1,5 @@
 .footer {
-  padding: 3rem 5rem;
+  padding: 3rem var(--padding-global-side);
   background-color: lightblue;
   display: flex;
   justify-content: space-between;
@@ -11,7 +11,6 @@
   flex-direction: column;
   justify-content: space-around;
 }
-
 
 .footer-info-header {
   font-size: 2rem;

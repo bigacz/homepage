@@ -1,0 +1,9 @@
+body {
+  --padding-global-side: 10rem;
+}
+
+@media (max-width: 1200px) and (min-width: 601px) {
+  body {
+    --padding-global-side: 2rem;
+  }
+}
