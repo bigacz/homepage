@@ -86,6 +86,7 @@
     top: unset;
     left: unset;
     max-width: 300px;
+    width: calc(200px + 9vw);
     float: left;
     shape-outside: inset(0% 20% 40% 0%);
     display: inline;
@@ -95,13 +96,15 @@
   .hero-picture-caption {
     top: 0;
     right: 0;
-    transform: translate(65%, 2.5%);
+    transform: translate(2.5em, 2.5%);
+    font-size: calc(1.5em + 1vw);
   }
 
   .hero-wrapper {
     display: block;
     position: relative;
-    transform: translate(0%);
+    padding: calc(0.5rem + 2vw);
+    transform: translate(3vw);
   }
 }
 
