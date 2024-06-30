@@ -1,6 +1,13 @@
 .footer {
-  padding: 3rem var(--padding-global-side);
   background-color: lightblue;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-wrapper {
+  padding: 3rem var(--padding-global-side);
+  max-width: 1500px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
