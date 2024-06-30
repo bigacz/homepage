@@ -5,21 +5,9 @@ body {
   display: grid;
 }
 
-figure {
-  padding: 0;
-  margin: 0;
-}
-
-h1 {
-  margin: 0;
-  padding: 0;
-}
-
-h2 {
-  margin: 0;
-  padding: 0;
-}
-
+figure,
+h1,
+h2,
 p {
   padding: 0;
   margin: 0;
