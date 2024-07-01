@@ -5,7 +5,7 @@
 }
 
 .footer-wrapper {
-  padding: 3rem var(--padding-global-side);
+  padding: var(--padding-global-gap) var(--padding-global-side);
   max-width: 1500px;
   width: 100%;
   display: flex;
