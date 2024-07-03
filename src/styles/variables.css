@@ -8,3 +8,9 @@ body {
     --padding-global-side: 2rem;
   }
 }
+
+@media (max-width: 600px) {
+  body {
+    --padding-global-side: calc(0.5rem + 2vw);
+  }
+}

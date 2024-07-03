@@ -109,7 +109,40 @@
 }
 
 @media (max-width: 600px) {
-  body {
-    background-color: red;
+  .hero {
+    padding: var(--padding-global-side) var(--padding-global-side) 3rem;
+  }
+  .hero-header {
+    text-align: center;
+  }
+
+  .hero-wrapper {
+    padding: 0;
+    transform: unset;
+    flex-direction: column;
+    background-color: unset;
+    box-shadow: none;
+  }
+
+  .hero-figure {
+    box-sizing: content-box;
+    margin: 3vw;
+    position: relative;
+    transform: unset;
+  }
+
+  .hero-picture-caption {
+    font-size: calc(1.1em + 2vw);
+    transform: unset;
+    left: 0%;
+    bottom: 0%;
+    white-space: break-spaces;
+    white-space-collapse: collapse;
+    margin: 1rem;
+  }
+
+  .hero-icon-container {
+    justify-content: center;
+    gap: 1.1rem;
   }
 }
