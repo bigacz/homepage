@@ -44,3 +44,34 @@
   width: auto;
   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
 }
+
+@media (max-width: 600px) {
+  .footer-wrapper {
+    padding: var(--padding-global-gap) 0 0 0;
+    flex-direction: column;
+  }
+
+  .footer-wrapper p,
+  .footer-info-contact {
+    padding-bottom: 1.5rem;
+  }
+
+  .footer-info {
+    padding: 0 var(--padding-global-side) 4rem;
+  }
+
+  .footer-info-header {
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+
+  .footer-info-icons {
+    justify-content: center;
+    grid-template-columns: repeat(3, 2.5rem);
+  }
+
+  .footer-picture img {
+    width: 100vw;
+    object-fit: cover;
+  }
+}
