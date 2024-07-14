@@ -1,5 +1,5 @@
 body {
-  --padding-global-side: 10rem;
+  --padding-global-side: calc(6rem + 3vw);
   --padding-global-gap: 2.5rem;
 }
 
