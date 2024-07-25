@@ -10,6 +10,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  gap: 1.5rem;
 }
 
 .footer-info {
@@ -21,6 +22,10 @@
 
 .footer-info-header {
   font-size: 2rem;
+}
+
+.footer-info-promo {
+  max-width: 70%;
 }
 
 .footer-info-contact {
@@ -63,6 +68,10 @@
   .footer-info-header {
     text-align: center;
     padding-bottom: 0.5rem;
+  }
+
+  .footer-info-promo {
+    max-width: unset;
   }
 
   .footer-info-icons {
