@@ -50,7 +50,7 @@
   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .footer-wrapper {
     padding: var(--padding-global-gap) 0 0 0;
     flex-direction: column;

@@ -11,13 +11,13 @@ body {
   src: url('../assets/fonts/DancingScript-Regular.woff2');
 }
 
-@media (max-width: 1200px) and (min-width: 601px) {
+@media (max-width: 1200px) and (min-width: 701px) {
   body {
     --padding-global-side: 2rem;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   body {
     --padding-global-side: calc(0.5rem + 2vw);
   }
