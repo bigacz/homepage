@@ -1,5 +1,5 @@
 .footer {
-  background-color: lightblue;
+  background-color: var(--color-accent-1);
   display: flex;
   justify-content: center;
   box-shadow: var(--box-shadow-1);

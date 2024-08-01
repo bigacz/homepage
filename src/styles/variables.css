@@ -2,6 +2,11 @@ body {
   --padding-global-side: calc(6rem + 3vw);
   --padding-global-gap: 2.5rem;
 
+  --color-accent-1: #f8d525;
+
+  --color-white: #fbf5f3;
+  --color-black: #141414;
+
   --box-shadow-1: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
 }
 
