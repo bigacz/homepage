@@ -21,7 +21,7 @@
 }
 
 .main-card {
-  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--box-shadow-1);
 
   display: grid;
   grid-template-rows: 2fr 1fr;

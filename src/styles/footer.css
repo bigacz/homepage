@@ -2,6 +2,7 @@
   background-color: lightblue;
   display: flex;
   justify-content: center;
+  box-shadow: var(--box-shadow-1);
 }
 
 .footer-wrapper {
@@ -47,7 +48,7 @@
 .footer-picture img {
   height: 400px;
   width: auto;
-  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--box-shadow-1);
 }
 
 @media (max-width: 650px) {

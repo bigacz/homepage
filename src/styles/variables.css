@@ -1,6 +1,10 @@
 body {
   --padding-global-side: calc(6rem + 3vw);
   --padding-global-gap: 2.5rem;
+
+  --box-shadow-1: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
 @font-face {
   font-family: 'Montserrat';
   src: url('../assets/fonts/Montserrat-VariableFont_wght.woff2');
