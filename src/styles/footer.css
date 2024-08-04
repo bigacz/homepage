@@ -29,14 +29,40 @@
   max-width: 70%;
 }
 
-.footer-info-contact {
+.footer-info-link {
   display: flex;
   align-items: center;
   gap: 0.3rem;
 }
 
-.footer-info-contact img {
-  height: 1em;
+.footer-info-link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.footer-info-link span {
+  position: relative;
+}
+
+.footer-info-link span::after {
+  position: relative;
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 1px;
+  border-radius: 2px;
+  width: 100%;
+  background-color: currentColor;
+}
+
+.footer-info-link:hover,
+.footer-info-link:focus {
+  color: var(--color-accent-2);
+}
+
+.footer-info-link img {
+  height: 1.7rem;
 }
 
 .footer-info-icons {
