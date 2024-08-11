@@ -1,0 +1,4 @@
+.icon_link:hover img,
+.icon_link:focus img {
+  filter: var(--color-accent-2-filter);
+}

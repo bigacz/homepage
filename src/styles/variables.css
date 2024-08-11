@@ -3,10 +3,13 @@ body {
   --padding-global-gap: 2.5rem;
 
   --color-accent-1: #f8d525;
-  --color-accent-2: #b01307;
+  --color-accent-2: #c91b18;
 
   --color-white: #fbf5f3;
   --color-black: #141414;
+
+  --color-accent-2-filter: brightness(0) saturate(100%) invert(19%) sepia(70%)
+    saturate(2767%) hue-rotate(344deg) brightness(100%) contrast(111%);
 
   --box-shadow-1: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
 }
