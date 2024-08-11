@@ -155,13 +155,13 @@
   }
 
   .hero-picture-caption {
-    font-size: calc(1.1em + 2vw);
+    font-size: calc(0.59em + 4.5vw);
     transform: unset;
     left: 0%;
     bottom: 0%;
     white-space: break-spaces;
     white-space-collapse: collapse;
-    margin: 0.2rem 0.5rem;
+    padding: 1% 3%;
   }
 
   .hero-icon-container {
