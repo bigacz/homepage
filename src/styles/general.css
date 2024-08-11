@@ -23,3 +23,36 @@ a img {
   display: block;
   margin: 0;
 }
+
+:focus {
+  outline: none;
+  position: relative;
+}
+
+:focus::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  content: '';
+  outline-offset: 2px;
+  outline: var(--color-black) 3px solid;
+
+  border-radius: 2px;
+}
+
+:focus::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  content: '';
+  outline-offset: 5px;
+  outline: var(--color-white) 2px solid;
+
+  border-radius: 2px;
+}
