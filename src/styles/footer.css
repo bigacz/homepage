@@ -102,6 +102,7 @@
   }
 
   .footer-info-icons {
+    padding-top: 1rem;
     justify-content: center;
     grid-template-columns: repeat(3, 2.5rem);
   }
@@ -112,5 +113,9 @@
     object-position: top;
 
     display: block;
+  }
+
+  .footer-info-link {
+    padding-bottom: 1rem;
   }
 }
