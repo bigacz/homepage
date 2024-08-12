@@ -12,7 +12,13 @@
         <figure class="hero-figure">
           <img
             class="hero-picture"
-            src="./assets/images/saul/saul1.webp"
+            srcset="
+              ./assets/images/saul/saul1-500w.webp 500w,
+              ./assets/images/saul/saul1-300w.webp 300w
+            "
+            sizes="(max-width: 1200px) and (min-width: 651px) 300px,
+          500px"
+            src="./assets/images/saul/saul1-500w.webp"
             alt="Saul"
           />
           <figcaption class="hero-picture-caption">
